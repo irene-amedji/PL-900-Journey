@@ -12,18 +12,6 @@ Bienvenue sur mon journal de bord ! Ce dépôt documente mon apprentissage des f
 
 ---
 
-##  Sommaire des Révisions & Notes
-
-| Module | Thématique principale | Statut | Fiche de résumé |
-| :--- | :--- | :---: | :---: |
-| **Module 1** | Valeur commerciale de la Power Platform | ✅ Complété | [Lire les notes](./notes/01-business-value.md) |
-| **Module 2** | Fondamentaux de Power Apps | 🔄 En cours | [Lire les notes](./notes/02-power-apps.md) |
-| **Module 3** | Fondamentaux de Power Automate | ⏳ À venir | [Lire les notes](./notes/03-power-automate.md) |
-| **Module 4** | Fondamentaux de Power BI | ⏳ À venir | [Lire les notes](./notes/04-power-bi.md) |
-| **Module 5** | Copilot Studio & AI Builder | ⏳ À venir | [Lire les notes](./notes/05-ai-builder.md) |
-
----
-
 ## 🔗 Liens Utiles & Contact
 - 💙 **Profil Microsoft Learn :** [https://learn.microsoft.com/fr-fr/users/irneamedji-5371?wt.mc_id=studentamb_598635]
 - 💼 **LinkedIn :** [https://www.linkedin.com/in/ireneamedji/]
