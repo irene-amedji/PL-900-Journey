@@ -1,1 +1,47 @@
+1. Découvrir Microsoft Dataverse
+
+L'objectif est de comprendre Dataverse, la base de données utilisée par Power Platform pour stocker et organiser les données.
+
+Dataverse c'est l'endroit où Power Platform peut stocker les données d'une application. Par exemple, si je crée une application de gestion des employés, j'ai besoin de stocker :
+
+- les employés
+- leurs postes
+- leurs départements
+- leurs congés
+- leurs demandes
+
+Ces informations peuvent être stockées dans Dataverse. On peut donc voir Dataverse comme une base de données structurée et intégrée à Power Platform.
+
+Comment les données sont organisées ?
+
+Dataverse utilise notamment des tables. Une table peut représenter un type d'information :
+
+Exemple : 
+
+TABLE : Employés
+
+┌──────────┬────────────┬──────────────┐
+│ Nom      │ Email      │ Département  │
+├──────────┼────────────┼──────────────┤
+│ Alice    │ ...        │ IT           │
+│ Paul     │ ...        │ RH           │
+└──────────┴────────────┴──────────────┘
+
+Chaque ligne représente un enregistrement et chaque colonne représente une information sur cet enregistrement.
+
+Pourquoi Dataverse est intéressant ?
+
+Ce n'est pas seulement une base de données. Dataverse permet également de gérer :
+
+- la sécurité et les permissions
+- les utilisateurs et leurs rôles
+- les relations entre les données
+- les règles métier
+- les données utilisées par les applications et les agents
+
+Et avec l'IA ?
+
+Dataverse devient particulièrement intéressant avec Copilot et les agents IA. Les agents peuvent utiliser les données stockées dans Dataverse pour comprendre une situation et effectuer des actions.
+
+À retenir : Dataverse = données structurées + sécurité + logique métier + intégration avec Power Platform.
 
