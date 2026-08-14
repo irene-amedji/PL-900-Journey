@@ -1,1 +1,37 @@
+4- Fonctionnalités de base de Microsoft Power Apps
 
+L'objectif est de comprendre comment Power Apps permet de créer des applications métier avec peu ou pas de code.
+
+En termes simples : Power Apps permet de créer rapidement une application adaptée à un besoin professionnel.
+
+Par exemple : Une entreprise veut une application pour gérer les demandes de congés. Au lieu de développer toute l'application depuis zéro, on peut utiliser Power Apps.
+
+🧩 Les principaux types d'applications
+
+1. Canvas apps
+
+On construit l'interface de manière très libre. On peut choisir où placer :
+
+- les boutons
+- les formulaires
+- les tableaux
+- les images
+- les champs
+
+C'est pratique quand on veut contrôler l'apparence de l'application.
+
+2. Model-driven apps
+
+Ici, l'application est davantage construite à partir des données de Dataverse. On définit les données, les relations et la logique métier, et Power Apps aide à construire l'expérience utilisateur autour de ces données. Très utile pour les applications métier complexes.
+
+3. Power Pages
+
+Power Pages permet de créer des sites web orientés données, notamment pour permettre à des personnes externes à l'organisation d'interagir avec certaines données.
+
+Et Copilot ?
+
+Copilot peut aider à créer une application à partir d'une description en langage naturel. Par exemple :
+
+« Je veux une application pour suivre les demandes de congés des employés. » L'IA peut aider à transformer cette intention en une solution Power Apps.
+
+À retenir : Power Apps = créer des applications métier rapidement, souvent avec peu de code.
