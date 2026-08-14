@@ -1,1 +1,136 @@
+6- Comprendre les fonctionnalités des agents Copilot Studio
 
+L'objectif est de comprendre comment créer des agents IA capables de répondre, réfléchir et agir.
+
+En termes simples : un agent Copilot Studio n'est pas simplement un chatbot qui répond à des questions.
+
+Il peut être configuré pour :
+
+- répondre à des questions ;
+- utiliser des sources de connaissances ;
+- utiliser des outils ;
+- déclencher des actions ;
+- communiquer avec d'autres systèmes ;
+- choisir différentes actions selon la demande.
+
+° Les connaissances
+
+Un agent peut avoir accès à des sources de connaissances pour répondre avec des informations pertinentes. C'est ici qu'on retrouve notamment le principe du RAG :
+
+
+Question de l'utilisateur
+          ↓
+Recherche d'informations pertinentes
+          ↓
+Informations ajoutées au contexte
+          ↓
+IA
+          ↓
+Réponse
+
+
+L'agent ne dépend donc pas uniquement de ce qu'il connaît déjà.
+
+°Les outils
+
+Un agent peut également utiliser des outils pour agir.
+
+Par exemple : « Vérifie ma commande. »
+
+L'agent peut utiliser un outil qui va consulter les données de commande.
+
+Ou : « Crée-moi un ticket support. »
+
+L'agent peut utiliser un outil pour créer réellement le ticket.
+
+
+°Orchestration générative
+
+Avec l'orchestration générative, l'agent peut déterminer quelles connaissances ou quels outils utiliser pour répondre à une demande.
+
+On ne lui donne pas nécessairement un chemin unique et rigide. On peut plutôt lui dire :
+
+Voici tes capacités :
+
+🔧 Vérifier une commande
+🔧 Créer un ticket
+🔧 Consulter un client
+📚 Chercher dans la documentation
+
+
+Puis l'agent choisit ce dont il a besoin selon la demande.
+
+Flux d'agent = le chemin est défini.
+
+Orchestration générative = l'agent peut choisir son chemin.
+
+
+°MCP
+
+Les serveurs MCP (Model Context Protocol) permettent également d'exposer des outils et des capacités à un agent IA de manière structurée.
+
+L'idée est :
+
+MCP Server
+    ↓
+« Voici les outils disponibles »
+    ↓
+Agent IA
+    ↓
+Choisit les outils nécessaires
+    ↓
+Action
+
+
+Agent = connaissances + outils + raisonnement + actions
+
+On peut donc simplifier un agent comme ceci :
+
+              AGENT
+                 │
+     ┌───────────┼───────────┐
+     ↓           ↓           ↓
+ Knowledge    Tools      Actions
+     │           │           │
+     └───────────┼───────────┘
+                 ↓
+          Répondre / agir
+
+
+À retenir : Un agent Copilot Studio peut utiliser des connaissances et des outils pour comprendre une demande, choisir quoi faire et effectuer des actions.
+
+Comment tout se connecte ?
+
+C'est probablement le plus important à retenir de tout le parcours.
+
+
+                         MICROSOFT POWER PLATFORM
+                                  │
+            ┌─────────────────────┼─────────────────────┐
+            ↓                     ↓                     ↓
+        POWER APPS        POWER AUTOMATE        COPILOT STUDIO
+            │                     │                     │
+            │                     │             Knowledge / Tools
+            │                     │                     │
+            └───────────────┬─────┴─────────────────────┘
+                            ↓
+                       DATAVERSE
+                            │
+                            ↓
+                       DONNÉES MÉTIER
+
+En une phrase : Dataverse stocke les données → Power Apps crée les applications → Power Automate automatise les processus → Copilot Studio permet aux agents IA d'utiliser les données et les outils pour répondre et agir.
+
+---
+
+Mes 5 phrases à retenir
+
+| Outil                 | À retenir                                                              |
+| --------------------- | ---------------------------------------------------------------------- |
+| Dataverse     |  Je stocke et structure mes données.                                           |
+| Gouvernance   |  Je contrôle et sécurise mon environnement Power Platform.                     |
+| Power Apps    |  Je crée des applications métier.                                              |
+| Power Automate | J'automatise des tâches et des processus.                                     |
+| Copilot Studio | Je crée des agents capables de comprendre, utiliser des informations et agir. |
+
+Power Platform n'est donc pas juste un ensemble d'outils séparés. C'est un écosystème où les données, les applications, les automatisations et l'IA peuvent fonctionner ensemble.
