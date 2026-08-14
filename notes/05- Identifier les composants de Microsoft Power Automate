@@ -1,1 +1,77 @@
+5- Les composants de Microsoft Power Automate
 
+L'objectif est de comprendre comment automatiser des tâches et des processus avec Power Automate.
+
+En termes simples, Power Automate c'est quand quelque chose arrive, faire automatiquement quelque chose.
+
+Exemple :
+
+Nouvelle demande de congé
+          ↓
+Power Automate détecte la demande
+          ↓
+Vérifie certaines informations
+          ↓
+Envoie une demande d'approbation
+          ↓
+Le manager accepte
+          ↓
+Le salarié reçoit une notification
+
+
+Au lieu qu'un humain fasse toutes ces étapes manuellement, le flux les automatise.
+
+°Le déclencheur :
+
+Un flux commence généralement avec un trigger / déclencheur.
+
+Exemples :
+
+- un nouvel enregistrement est créé ;
+- un email arrive ;
+- un formulaire est envoyé ;
+- un fichier est ajouté ;
+- une action est effectuée dans une application.
+
+Le déclencheur répond à : « Qu'est-ce qui démarre mon automatisation ? »
+
+Les actions
+
+Après le déclencheur, Power Automate exécute des actions. Par exemple :
+
+
+TRIGGER
+Nouvelle commande
+      ↓
+ACTION
+Récupérer les informations
+      ↓
+ACTION
+Envoyer un email
+      ↓
+ACTION
+Mettre à jour Dataverse
+
+
+°Les connecteurs
+
+Power Automate peut communiquer avec différents services grâce aux connecteurs. Par exemple :
+
+- Dataverse
+- Outlook
+- SharePoint
+- Excel
+- Teams
+etc.
+
+Le connecteur permet à Power Automate de communiquer avec le service concerné.
+
+Et Copilot ?
+
+Copilot peut aider à créer un flux à partir d'une description en langage naturel.
+
+Par exemple :
+
+« Quand je reçois une facture par email, sauvegarde-la dans SharePoint et préviens mon équipe sur Teams. »
+
+À retenir : Power Automate = automatiser un processus en reliant plusieurs actions et services.
