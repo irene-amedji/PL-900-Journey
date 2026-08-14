@@ -1,1 +1,61 @@
+2. Gouvernance et administration de Power Platform
 
+L'objectif est de comprendre comment une organisation peut contrôler et sécuriser l'utilisation de Power Platform.
+
+En termes simples : imagine qu'une entreprise donne Power Apps et Power Automate à 5 000 employés.
+
+Si tout le monde peut :
+
+- créer n'importe quelle application,
+- connecter n'importe quelle base de données,
+- partager n'importe quelle information,
+- automatiser n'importe quel processus,
+
+ça peut vite devenir le chaos ! La gouvernance sert donc à définir des règles.
+
+Qui peut faire quoi, avec quelles données, dans quel environnement et avec quelles connexions ?
+
+Les environnements
+
+Power Platform permet de séparer les applications et les données dans différents environnements.
+
+Par exemple :
+
+ENVIRONNEMENT DE DÉVELOPPEMENT
+        ↓
+    Développer
+        ↓
+ENVIRONNEMENT DE TEST
+        ↓
+      Tester
+        ↓
+ENVIRONNEMENT DE PRODUCTION
+        ↓
+    Utilisateurs
+
+Cela évite de modifier directement une application utilisée par les utilisateurs.
+
+Sécurité
+
+La gouvernance permet notamment de gérer :
+
+- les utilisateurs
+- les rôles
+- les permissions
+- l'accès aux données
+- les connexions
+- les politiques de sécurité
+
+Pourquoi surveiller Power Platform ?
+
+Une entreprise doit aussi savoir :
+
+- quelles applications existent ;
+- qui les utilise ;
+- quelles données elles utilisent ;
+- quels flux sont exécutés ;
+- s'il existe des problèmes ou des risques.
+
+C'est là qu'interviennent notamment l'administration, la surveillance et l'analytique.
+
+À retenir : Gouvernance = permettre aux utilisateurs de créer des solutions tout en gardant le contrôle sur la sécurité, les données et les environnements.
