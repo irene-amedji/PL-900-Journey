@@ -17,4 +17,6 @@ EXERCICE PRATIQUE :
 
 J'ai créé ma première appli dans power apps à partir de données en fichier excel.
 
+Ci dessous, ma première appli canevas :
+
 
