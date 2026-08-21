@@ -13,3 +13,8 @@ Dans ce module, j'apprends à :
 
 EXERCICE PRATIQUE :
 
+<img width="1918" height="891" alt="image" src="https://github.com/user-attachments/assets/49f2effd-5a9a-4d45-9c2e-ce10e1f16111" />
+
+J'ai créé ma première appli dans power apps à partir de données en fichier excel.
+
+
